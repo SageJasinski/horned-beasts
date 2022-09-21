@@ -1,0 +1,63 @@
+[
+    {
+        "imgUrl":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/03b0bb60-33a6-48be-b639-c3b395daadea/d902f91-d384945e-dd47-4935-a845-fa0d709eb45e.png/v1/fill/w_900,h_1239,q_75,strp/samurai_jack_fusionfall_style___aku_by_breaker335-d902f91.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi8wM2IwYmI2MC0zM2E2LTQ4YmUtYjYzOS1jM2IzOTVkYWFkZWEvZDkwMmY5MS1kMzg0OTQ1ZS1kZDQ3LTQ5MzUtYTg0NS1mYTBkNzA5ZWI0NWUucG5nIiwid2lkdGgiOiI8PTkwMCIsImhlaWdodCI6Ijw9MTIzOSJ9XV19.eoKAsuJlCnCTsIMTVn1NY_87G7e7t3N_N_yTsnty7QE",
+        "title" : "Haku",
+        "id" : "cartoon",
+        "descriptions" : "Haku (samurai jack) master of evil",
+        "likes": " "
+    },
+
+    {
+        "imgUrl":"https://vignette.wikia.nocookie.net/characterprofile/images/c/c7/Twilight_Sparkle_Alicorn_vector.png/revision/latest/scale-to-width-down/2000?cb=20160104140556",
+        "title" : "Twilight Sparkle",
+        "id" : "cartoon",
+        "descriptions": "A picture of a cartoon unicorn",
+        "likes": " "
+    },
+
+    {
+        "imgUrl": "https://pm1.narvii.com/6759/6410cdb38607ea13cd1caab6481cd35e972d713dv2_hq.jpg",
+        "title": "Edwardo",
+        "id":"cartoon",
+        "descriptions":"Edwardo from Foster home for Imaginary Freinds",
+        "likes": " "
+    },
+
+    {
+        "imgUrl": "http://img4.wikia.nocookie.net/__cb20140221012040/mr-peabody-sherman/images/7/71/Bullwinkle.png",
+        "title": "Bullwinkle",
+        "id":"cartoon",
+        "descriptions":"Bullwinkle from rachet and bullwinkle",
+        "likes": " "
+    },
+    
+    {
+        "imgUrl": "https://vignette.wikia.nocookie.net/villains/images/e/ed/Clarabelle_Cow.png/revision/latest?cb=20190924200736",
+        "title": "Clarabell",
+        "id":"disney",
+        "descriptions":"Disney's Clarabell cow",
+        "likes": " "
+    },
+
+    {
+        "imgUrl":"http://dl9fvu4r30qs1.cloudfront.net/fe/50/3ca00738438e8d81f84c7ed90e08/beauty-and-the-beast.png",
+        "title": "The Beast",
+        "id":"disney",
+        "descriptions": "Beast from beuty and the beast",
+        "likes": " "
+    },
+    {
+        "imgUrl": "https://images3.wikia.nocookie.net/__cb20110426140609/pixar/images/8/8c/Sulleymonsters,inc..png",
+        "title": "Sully",
+        "id":"disney",
+        "descriptions":"Monsters inc Sully",
+        "likes": " "  
+    },
+    {
+        "imgUrl":"https://www.thatslife.gr/wp-content/uploads/2014/05/maleficent-original.png",
+        "title":"Maleficent",
+        "id":"disney",
+        "descriptions":" Maleficent From sleeping beuty",
+        "likes": " "
+    }
+]

@@ -40,3 +40,47 @@
   height: 200px;
   width: 200px;
  }
+
+ .carousel-inner img {
+  background-color: white;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.carousel h2 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+ h1{
+  text-align: center;
+ }
+
+ p{
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
+ }
+.carousel {
+  background-color: lightgrey;
+  border-radius: 20px;
+  height: 450px;
+  width: 700px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: solid grey;
+}
+
+.btn-primary {
+  margin-left:310px;
+  width: 90px;
+}
+
+.heart {
+  margin: auto;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
