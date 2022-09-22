@@ -27,6 +27,9 @@ class HornedBeast extends React.Component{
                     title={this.props.title}
                     alt={this.props.alt}
                     height={this.props.height}
+                    onClick={(i) => {
+                        console.log(i);
+                        this.props.showCard(this.props.key);}}
                 />
                 <p>{this.state.description}</p>
                 <p className="heart">{this.state.likes}</p>
