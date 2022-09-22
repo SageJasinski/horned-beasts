@@ -3,21 +3,25 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 
 class HornedModal extends React.Component {
-    render(){
-      return (
-        <>
-        <Modal show={this.props.show} onHide={this.props.onHide}>
-          <Modal.Header closeButton>
-            <Modal.Title>{this.props.heading}</Modal.Title>
-          </Modal.Header>
+  render(){
+    return (
+      <>
+      <Modal show={this.props.show} onHide={this.props.onHide}>
+
+        <Modal.Header closeButton></Modal.Header>
+        
+        <Modal.Title><p>{this.props.heading}</p></Modal.Title>
+    
+        <Modal.Body>
+          <img src={this.props.img} alt={this.description}></img>
+          <p>{this.props.description}</p>
+        </Modal.Body>
   
-          <Modal.Body>{this.props.description}</Modal.Body>
-  
-          <Modal.Footer>
-            <Button variant="secondary" onClick={this.props.onHide}>Exit</Button>
-          </Modal.Footer>
-        </Modal>
-        </>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={this.props.onHide}>Exit</Button>
+        </Modal.Footer>
+      </Modal>
+      </>
       );
     }
   }
