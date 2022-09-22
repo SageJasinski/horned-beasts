@@ -63,6 +63,7 @@ h2 {
   padding-top: 20px;
   margin: auto;
  }
+
 .carousel {
   background-color: lightgrey;
   border-radius: 20px;
@@ -83,4 +84,21 @@ h2 {
   margin: auto;
   padding-top: 0px;
   padding-bottom: 10px;
+}
+
+.modal-body img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.modal-title {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-footer .bt-secondary {
+  display: flex;
+  justify-content: center;
 }
