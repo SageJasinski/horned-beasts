@@ -4,7 +4,8 @@
         "title" : "Haku",
         "id" : "cartoon",
         "descriptions" : "Haku (samurai jack) master of evil",
-        "likes": " "
+        "likes": " ",
+        "num": "01"
     },
 
     {
@@ -12,7 +13,8 @@
         "title" : "Twilight Sparkle",
         "id" : "cartoon",
         "descriptions": "A picture of a cartoon unicorn",
-        "likes": " "
+        "likes": " ",
+        "num": "02"
     },
 
     {
@@ -20,7 +22,8 @@
         "title": "Edwardo",
         "id":"cartoon",
         "descriptions":"Edwardo from Foster home for Imaginary Freinds",
-        "likes": " "
+        "likes": " ",
+        "num": "03"
     },
 
     {
@@ -28,7 +31,8 @@
         "title": "Bullwinkle",
         "id":"cartoon",
         "descriptions":"Bullwinkle from rachet and bullwinkle",
-        "likes": " "
+        "likes": " ",
+        "num": "04"
     },
     
     {
@@ -36,7 +40,8 @@
         "title": "Clarabell",
         "id":"disney",
         "descriptions":"Disney's Clarabell cow",
-        "likes": " "
+        "likes": " ",
+        "num": "05"
     },
 
     {
@@ -44,20 +49,23 @@
         "title": "The Beast",
         "id":"disney",
         "descriptions": "Beast from beuty and the beast",
-        "likes": " "
+        "likes": " ",
+        "num": "06"
     },
     {
         "imgUrl": "https://images3.wikia.nocookie.net/__cb20110426140609/pixar/images/8/8c/Sulleymonsters,inc..png",
         "title": "Sully",
         "id":"disney",
         "descriptions":"Monsters inc Sully",
-        "likes": " "  
+        "likes": " ",
+        "num": "07"  
     },
     {
         "imgUrl":"https://www.thatslife.gr/wp-content/uploads/2014/05/maleficent-original.png",
         "title":"Maleficent",
         "id":"disney",
         "descriptions":" Maleficent From sleeping beuty",
-        "likes": " "
+        "likes": " ",
+        "num": "08"
     }
 ]
