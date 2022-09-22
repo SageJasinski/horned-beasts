@@ -5,7 +5,8 @@
         "id" : "cartoon",
         "descriptions" : "Haku (samurai jack) master of evil",
         "likes": " ",
-        "num": "01"
+        "num": "01",
+        "horns": "4"
     },
 
     {
@@ -14,7 +15,8 @@
         "id" : "cartoon",
         "descriptions": "A picture of a cartoon unicorn",
         "likes": " ",
-        "num": "02"
+        "num": "02",
+        "horns": "1"
     },
 
     {
@@ -23,7 +25,8 @@
         "id":"cartoon",
         "descriptions":"Edwardo from Foster home for Imaginary Freinds",
         "likes": " ",
-        "num": "03"
+        "num": "03",
+        "horns": "2"
     },
 
     {
@@ -32,7 +35,8 @@
         "id":"cartoon",
         "descriptions":"Bullwinkle from rachet and bullwinkle",
         "likes": " ",
-        "num": "04"
+        "num": "04",
+        "horns": "2"
     },
     
     {
@@ -41,7 +45,8 @@
         "id":"disney",
         "descriptions":"Disney's Clarabell cow",
         "likes": " ",
-        "num": "05"
+        "num": "05",
+        "horns": "2"
     },
 
     {
@@ -50,7 +55,8 @@
         "id":"disney",
         "descriptions": "Beast from beuty and the beast",
         "likes": " ",
-        "num": "06"
+        "num": "06",
+        "horns": "2"
     },
     {
         "imgUrl": "https://images3.wikia.nocookie.net/__cb20110426140609/pixar/images/8/8c/Sulleymonsters,inc..png",
@@ -58,7 +64,8 @@
         "id":"disney",
         "descriptions":"Monsters inc Sully",
         "likes": " ",
-        "num": "07"  
+        "num": "07",
+        "horns": "2"  
     },
     {
         "imgUrl":"https://www.thatslife.gr/wp-content/uploads/2014/05/maleficent-original.png",
@@ -66,6 +73,7 @@
         "id":"disney",
         "descriptions":" Maleficent From sleeping beuty",
         "likes": " ",
-        "num": "08"
+        "num": "08",
+        "horns": "2"
     }
 ]
