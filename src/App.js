@@ -10,7 +10,7 @@ import HornedBeast from './Hornedbeast';
 
 import Carousel from 'react-bootstrap/Carousel';
 import HornedModal from './BeastModal.js';
-import { Form } from 'react-bootstrap';
+import { Form, Placeholder } from 'react-bootstrap';
 
 
 class App extends React.Component {
@@ -20,7 +20,7 @@ class App extends React.Component {
         selected: {},
         show: false,
         searchFor: 0,
-        // card: {},
+        display: data,
     }
   }
 
@@ -41,14 +41,19 @@ class App extends React.Component {
     }
 
     searchFilter = (event) => {
-      event.preventDefault();
+      // event.preventDefault();
+      
+      const phrase = event.target.value;
+    
+       const search = data.filter((animal) => {
+        return animal.horns.includes(phrase);
+      })
 
-      const phrase = event.target.drop.value;
-
-      const search = data.filter((animal) => {
-         return animal.id.includes(phrase.toLowerCase);
-    })
-
+      if(phrase === 'all'){
+        this.setState({display: data})
+      }else{
+        this.setState({display: search})
+      }
 
     }
 
@@ -56,36 +61,30 @@ class App extends React.Component {
     return (
       <>
       <Header></Header>
-        <Form onSubmit={this.searchFilter}>
-          <Form.Group controlId='drop'>
-              <Form.Label>
-                Search by type:
-              </Form.Label>
 
-              <Form.Select>
-              </Form.Select>
+        <Form>
+          <Form.Group class='test' controlId='drop'>
+
+            <Form.Select onChange={this.searchFilter}>
+              <option value='all'>Filter By number of horns...</option>
+              <option value='4'>4 horns</option>
+              <option value='2'>2 horns</option>
+              <option value='1'>1 horn</option>
+            </Form.Select>
+
           </Form.Group>
         </Form>
+
         <Carousel>
-            {data.map((animal, index) => {
-              if(animal.id === "cartoon"){
+            {this.state.display.map((animal, index) => {
+            
                 let newCartoon = <HornedBeast src={animal.imgUrl} title={animal.title} likes={animal.likes} showCard={this.showCard} id={animal.num} />;
+
                 return <Carousel.Item key={index} data-bs-interval="false" data-pause="hover">{newCartoon}</Carousel.Item>;
-              }
-              return console.log('linter')
+              // return console.log('linter')
             })}
         </Carousel>
 
-        <h2>Disney</h2>
-        <Carousel>
-        {data.map((animal, index) => {
-              if(animal.id === "disney"){
-                let newDisney = <HornedBeast src={animal.imgUrl} title={animal.title} likes={animal.likes} showCard={this.showCard} id={animal.num} />;
-                return <Carousel.Item key={index} data-bs-interval="false" data-pause="hover">{newDisney}</Carousel.Item>;
-              }
-              return console.log('linter')
-        })}
-        </Carousel>
 
         <HornedModal show={this.state.show} onHide={this.hideCard} selected={this.state.selected} heading={this.state.selected.title} description={this.state.selected.descriptions} img={this.state.selected.imgUrl}/>
         <Footer />
