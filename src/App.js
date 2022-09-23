@@ -2,15 +2,13 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header';
-// import Main from './Main';
 import Footer from './Footer';
-// import imgUrl from './assets/data.json';
 import data from './assets/data.json';
 import HornedBeast from './Hornedbeast';
 
 import Carousel from 'react-bootstrap/Carousel';
 import HornedModal from './BeastModal.js';
-import Form from 'react-bootstrap';
+import Form from 'react-bootstrap/Form';
 
 
 class App extends React.Component {
