@@ -10,7 +10,7 @@ import HornedBeast from './Hornedbeast';
 
 import Carousel from 'react-bootstrap/Carousel';
 import HornedModal from './BeastModal.js';
-import { Form, Placeholder } from 'react-bootstrap';
+import Form from 'react-bootstrap';
 
 
 class App extends React.Component {
@@ -33,7 +33,6 @@ class App extends React.Component {
       )
 
       this.setState({selected: chosen[0]});
-      // console.log(this.state.selected);
     }
 
     hideCard = () =>{
@@ -41,7 +40,6 @@ class App extends React.Component {
     }
 
     searchFilter = (event) => {
-      // event.preventDefault();
       
       const phrase = event.target.value;
     
@@ -81,7 +79,6 @@ class App extends React.Component {
                 let newCartoon = <HornedBeast src={animal.imgUrl} title={animal.title} likes={animal.likes} showCard={this.showCard} id={animal.num} />;
 
                 return <Carousel.Item key={index} data-bs-interval="false" data-pause="hover">{newCartoon}</Carousel.Item>;
-              // return console.log('linter')
             })}
         </Carousel>
 
